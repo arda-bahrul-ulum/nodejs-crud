@@ -86,37 +86,37 @@ async function getHargaRataRata() {
   return result[0].rata_rata;
 }
 
-// let insertData = await insertBuku(
-//   "Bumi Manusia",
-//   "Pramoedya Ananta Toer",
-//   15000,
-//   5
-// );
+let insertData = await insertBuku(
+  "Bumi Manusia",
+  "Pramoedya Ananta Toer",
+  15000,
+  5
+);
 
-// let getAllData = await getAllBuku();
-// let updateData = await updateBuku(
-//   "Langit Bumi",
-//   "Pramoedya Ananta Toer",
-//   15000,
-//   5,
-//   13
-// );
-// let deleteData = await deleteBuku(insertData);
-// let detailData = await getDetailBuku(
-//   "Bumi Manusia",
-//   "Pramoedya Ananta Toer",
-//   15000,
-//   5
-// );
-// let bukuMahal = await getBukuMahal();
-// let stokSedikit = await getStokSedikit();
+let getAllData = await getAllBuku();
+let updateData = await updateBuku(
+  "Langit Bumi",
+  "Pramoedya Ananta Toer",
+  15000,
+  5,
+  13
+);
+let deleteData = await deleteBuku(insertData);
+let detailData = await getDetailBuku(
+  "Bumi Manusia",
+  "Pramoedya Ananta Toer",
+  15000,
+  5
+);
+let bukuMahal = await getBukuMahal();
+let stokSedikit = await getStokSedikit();
 let rataRata = await getHargaRataRata();
 
-// console.log("data insert", insertData);
-// console.log("data all", getAllData);
-// console.log("data update", updateData);
-// console.log("data delete", deleteData);
-// console.log("detail data", detailData);
-// console.log("data buku diatas 20000", bukuMahal);
-// console.log("data stok dibawah 50", stokSedikit);
+console.log("data insert", insertData);
+console.log("data all", getAllData);
+console.log("data update", updateData);
+console.log("data delete", deleteData);
+console.log("detail data", detailData);
+console.log("data buku diatas 20000", bukuMahal);
+console.log("data stok dibawah 50", stokSedikit);
 console.log("harga rata rata", rataRata);

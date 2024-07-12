@@ -1,2 +1,1 @@
-# nodejs-batch2
-nodes js - batch 2
+Menerapkan CRUD (Create, Read, Update, Delete) dengan nodejs dan mysql.
